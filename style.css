@@ -721,41 +721,73 @@
 	   padding-top:20px;
 	   font-size:17px;
    }
-   .alls{
-	    width:20px;
-	   height:20px;
-        border-radius:50%;	
+    .alls{
+	  text-align: center;
+  }
+   .btn1 {
+	   display: inline-block;
+	   color: black;
+	   padding:12px 20px;
+	   font-size:14px;
+	   border-radius:25px;
    }
-   .alls a{
-	     font-size:17px;
-		 text-decoration:none;
-		 color:#000;
-		 line-height:1;
-       display:inline-block;
-	   padding:10px 30px 10px 20px;
-	   width:20px;
-	   height:20px;
-        border-radius:50%;		
+   a{
+	   text-decoration:none;
    }
-   
+   .btn1:hover{
+	   background-color: var(--primary-color);
+   }
+   .alls div.active{
+	   background-color: var(--primary-color);
+   }
    .adding img{
-	  margin-top:10px;
+	  margin-top:30px;
 	  width:100%;
    } 
-   .adding.mirror{
-	   opacity:1;
-	 padding-left:20px;
-	 padding-bottom:20px;
-	 top:0;
-	   bottom:0;
-	   position:absolute;
-	   z-index:3;
-	   background-color:#blue;
-	   
+   .adding {
+	   position:relative;
    }
-   
-   
-   
+   .adding:hover .mirror{
+	   opacity:1;
+   }
+   .adding:hover .foliobox-icon{
+	   opacity:1;
+   }
+   .foliobox-icon:hover i{
+	    background-color: var(--primary-color);
+		cursor:pointer;
+   }
+.mirror{
+	position:absolute;
+	opacity:0;
+	bottom:10px;
+	justify-content:space-between;
+	width:90%;
+	background-color:#ffffffbf;
+	border:soild 2px red;
+	padding-left:20px;
+	margin:22px;
+}
+   .foliobox1 h2{
+	   font-size:20px;
+	   padding-top:15px;
+	   line-height:30px;
+	    font-family:"Raleway ", sans-serif;
+   }
+   .foliobox1 p{
+	   font-size:15px;
+	   padding-bottom:15px;
+   }
+.foliobox-icon{
+	position:absolute;
+	line-height:30px;
+	bottom:20px;
+	opacity:0;
+	width:90%;
+	text-align:right;
+}
+	
+	
    /*===images end===*/
    
    /*===film start ===*/
@@ -781,8 +813,17 @@
 		 font-size:17px;
 	  text-align:center;
 	}
-	.simple{
+	.name-icon{
 		font-size:20px;
+		width:100%;
+	    padding:20px 30px;
+	    background-color:#ffffff8c;
+	    position:absolute;
+	   bottom:95px;
+	   opacity:1;
+	}
+	.two.name-icon {
+		position:relative;
 	}
    .maker{
 	  margin-top:40px;
@@ -791,7 +832,6 @@
    }
     .maker img{
 	   width:100%;
-	  
    }
   
    .maker h1{
@@ -813,18 +853,69 @@
    /*===price start===*/
    .price{
 	     background-color:white;
-	  height:500px; 
+	   font-family: "Open Sans", sans-serif;
    }
-   .content5{
-	     background-color:#ff5821;
-	  height:100px;
-	  margin:30px;
+    .content5{
+	  margin:40px 0;
+	  text-align:center;
+	  line-height:80px;
+   }
+   .content5 h1{
+	   color:#5c4d4d;
+	   font-size:35px;
+   }
+   .content5 p{
+	   color:#5c4d4d;
+	   padding-top:20px;
+	   font-size:20px;
+	    line-height:30px;
    }
    .money{
-	    background-color:#ff5821;
-	  height:250px;
-	  margin-top:80px;
+	  margin-top:20px;
+	  background-color:white;
+	  text-align:center;
+	  line-height:50px;
+	  border-radius:10px;
+	  overflow:hidden;
+	  box-shadow:0 0 5px #ccc;
    }
+   .money sup{
+	   color:var(--primary-color);
+	  vertical-align:15px;
+       font-size:20px;	
+		font-weight:700;	   
+   }
+   .money h2 span{
+	   color:var(--primary-color);
+	   font-size:40px;
+	   font-weight:700;
+   }
+   .money h2{
+	    color:#5c4d4d47;
+		font-size:20px;
+   }
+   .money p{
+	   color:#5c4d4d;
+	   line-height:30px;
+   }
+   
+   .money h3{
+	   font-size:20px;
+	   background-color:#cccccc2e;
+   }
+   .money p del{
+	   color:#5c4d4d47;
+	   font-weight:600;
+   }
+   .price-btn a{
+	  color:#fff;
+	  text-decoration:none;
+	  background-color:#4dc4d3;
+	  border-radius:7px;
+	  padding:8px 25px;
+	  font-family: "Raleway", sans-serif;
+   }
+   
    
    /*===price end===*/
    
