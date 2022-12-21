@@ -1101,6 +1101,7 @@
 		border-radius: 25px;
 		background: #fff;
 		padding: 1px;
+		
 	}
 	.sub{
 		position: absolute;
@@ -1108,7 +1109,6 @@
 		transform: translateY(-2px);
 		border-radius: 25px;
 		background-color: #00bcd4;
-		text-align: center;
 		font-size: 16px;
 		color: #fff;
 		height: 45px;
@@ -1123,12 +1123,10 @@
 		left: 2px;
 		bottom: 0px;
 		width: 66%;
-		border: solid 1px #ccc;
 		color: #999;
 		font-size: 16px;
 		padding: 9px 0px;
 		margin: 2px;
-		transform: trnsalateX(4);
 		transform: translate(10px, 0px);
 	}
 	.subscribe>input{
