@@ -496,7 +496,7 @@
 	  text-align:center;
 	  z-index:1;
 	 min-height:200px;
-	  
+	   margin-bottom:20px;
   }
   .service-items .service-icons{
 	  position:absolute;
