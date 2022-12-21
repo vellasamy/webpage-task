@@ -219,7 +219,9 @@
 	   padding:160px 0 200px;
 	   margin-bottom:-150px;
    }
-   
+   .banner-content{
+	   padding:140px 0 30px 0px;
+   }
     .banner-content h1{
 		 font-family: 'Raleway', sans-serif;
 		color:var(--white);
