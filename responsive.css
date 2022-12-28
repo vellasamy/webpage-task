@@ -99,6 +99,10 @@
 	.client-logo {
     padding: 10px 0px;
 	}
+     /*===bg img-sec===*/
+	 .content2 p{
+       font-size:12px;
+	 }
 	/*===service-sec===*/
 	 .service-items p{
 	  font-size:16px;
