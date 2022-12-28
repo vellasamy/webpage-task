@@ -95,10 +95,10 @@
      .maker{
 		 margin-bottom:20px;
 	 }
-      .buy-order h3{
-		  left:175px;
-		  top:20px;
-	  }
+       .buy-order h3 {
+    left: 200px;
+    top: 22px;
+   }
 	.para-fi {
     padding:0px;
      }
@@ -106,8 +106,8 @@
 		  margin-bottom:20px;
 	  }
 	  .table {
-    padding: 15px 0px;
-    }
+         padding: 15px 0px;
+      }
 	 .base h5{
 		 margin-bottom:20px;
 	 }
