@@ -1,3 +1,9 @@
+   /*mobile-----< 576
+   small device---< 576
+   tab or medium---< 768
+   laptop------->992/1200
+   desktop------->1200/1400*/
+   /*====mobile device===*/
 @media (max-width:576px){
 	
 	.col-xs-1{
@@ -67,10 +73,10 @@
 	}
 	/*===why-choose-sec===*/
 	.why-choose{
-		margin-bottom:20px;
+		margin-bottom:30px;
 	}
 	.choose-items{
-		margin-bottom:20px;
+		margin-bottom:30px;
 		height:auto;
 	}
 	/*===about-sec===*/
@@ -99,11 +105,11 @@
 	 }
 	 /*===team-sec===*/
      .maker{
-		 margin-bottom:20px;
+		 margin-bottom:30px;
 	 }
 	 /*===price-sec===*/
      .buy-order h3 {
-      margin-bottom:20px;
+      margin-bottom:30px;
      }
 	 /*===para-sec===*/
 	.para-fi {
@@ -111,7 +117,7 @@
      }
 	 /*===contact-sec===*/
 	  .address{
-		  margin-bottom:20px;
+		  margin-bottom:30px;
 	  }
 	  .table {
     padding: 15px 0px;
