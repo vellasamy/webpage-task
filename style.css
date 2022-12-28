@@ -979,8 +979,8 @@
    
    .form input{
 	   width:100%;
-	  margin-bottom:20px;
-	  padding:10px;
+	  margin-bottom: 28px;
+     padding: 16px;
 	  font-size:17px;
    }
     .form textarea{
@@ -1046,7 +1046,7 @@
 		font-weight:600;
 	}
    .base1 h2{
-	   font-size:17px;
+	   font-size:16px;
 	   font-weight: bold;
    }
    .base1 p{
@@ -1090,7 +1090,6 @@
 	}
 	.form-controal1{
     width: 75%;
-    border: solid 1px #ccc;
     color: #999;
     font-size: 16px;
     padding: 9px 0px;
