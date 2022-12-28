@@ -4,7 +4,7 @@
 	  --white:#fff;
 	  --bg-color:#f8feff;
   }
-
+  
   /*==== common grid style ====*/
  
  *{
@@ -871,18 +871,17 @@
 	   background-color: var(--primary-color);
    }
    .buy-order h3{
-	   text-align:center;
-	   font-size:18px;
+	   
+	   font-size:14px;
 	   position:absolute;
-	   left:130px;
+	   right:-60px;
 	   top:18px;
 	   color:#fff;
 	    background-color: var(--primary-color);
-		height:30px;
 		width:200px;
-	    margin:0 auto;
        transform:rotate(40deg);
 	   line-height:20px;
+	   padding: 5px 0px 5px 0;
    }
    
    /*===price end===*/
