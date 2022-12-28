@@ -15,6 +15,7 @@
 	  width:100%;
 	  margin:0 auto;
 	   padding:0 15px;
+	   position:relative;
    }
    .row{
 	   display:flex;
@@ -92,6 +93,9 @@
     .text-justify{ 
 	   text-align:justify !important;
    }
+   .d-none{
+	   display:none !important;
+   }
   
    /*===common end===*/
    
@@ -124,6 +128,16 @@
 	}
 	.contact-info span >a:hover{
 		color:#00bcd4;
+	}
+	.mini-btn{
+	position: absolute;
+    right: 20px;
+    width: 40px;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+    font-size: 30px;
 	}
      .nav-section{
 	   padding:15px;  
@@ -969,7 +983,7 @@
 	
 	    
    .form-content{
-      margin-top:25px;
+      margin-top:33px;
 	  padding:25px;
 	   background-color:#fff;
 	  box-shadow: 0 0 30px #e9e2e2c7;
@@ -979,8 +993,8 @@
    
    .form input{
 	   width:100%;
-	  margin-bottom: 28px;
-     padding: 16px;
+	  margin-bottom: 20px;
+     padding: 10px;
 	  font-size:17px;
    }
     .form textarea{
